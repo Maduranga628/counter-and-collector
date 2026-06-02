@@ -1,0 +1,1240 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "CD4069UBM"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -12.7 16.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CD4069"
+			(at -12.7 -19.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "CD4069UBM:SOIC127P600X175-14N"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-ch, 3-V to 18-V inverters"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Slkor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer Part Number" "CD4069"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "LCSC Part Number" "C3041279"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(symbol "CD4069UBM_0_0"
+			(pin input line
+				(at -53.34 -24.13 0)
+				(length 5.08)
+				(name "A"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at -26.67 -24.13 180)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "G=~A" output inverted)
+			)
+			(pin input line
+				(at 33.02 -26.67 0)
+				(length 5.08)
+				(name "B"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 68.58 -26.67 180)
+				(length 5.08)
+				(name "H=~B"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -29.21 0)
+				(length 5.08)
+				(name "C"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 68.58 -29.21 180)
+				(length 5.08)
+				(name "I=~C"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 68.58 -41.91 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 68.58 -31.75 180)
+				(length 5.08)
+				(name "J=~D"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -31.75 0)
+				(length 5.08)
+				(name "D"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 68.58 -34.29 180)
+				(length 5.08)
+				(name "K=~E"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -34.29 0)
+				(length 5.08)
+				(name "E"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 68.58 -36.83 180)
+				(length 5.08)
+				(name "L=~F"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -36.83 0)
+				(length 5.08)
+				(name "F"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 68.58 -19.05 180)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CD4069UBM_1_0"
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "CD4069UBM_3_0"
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "CD4069UBM_4_0"
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "CD4069UBM_5_0"
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "CD4069UBM_6_0"
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "CD4069UBM_7_0"
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -44.45 -20.32) (xy -44.45 -27.94) (xy -36.83 -24.13) (xy -44.45 -20.32)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -36.83 -10.16) (xy -36.83 -17.78) (xy -29.21 -13.97) (xy -36.83 -10.16)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -36.83 -10.16) (xy -36.83 -17.78) (xy -29.21 -13.97) (xy -36.83 -10.16)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -36.83 -10.16) (xy -36.83 -17.78) (xy -29.21 -13.97) (xy -36.83 -10.16)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -36.83 -10.16) (xy -36.83 -17.78) (xy -29.21 -13.97) (xy -36.83 -10.16)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -36.83 -10.16) (xy -36.83 -17.78) (xy -29.21 -13.97) (xy -36.83 -10.16)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -36.83 -10.16) (xy -36.83 -17.78) (xy -29.21 -13.97) (xy -36.83 -10.16)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -33.02 -29.21) (xy -33.02 -36.83) (xy -25.4 -33.02) (xy -33.02 -29.21)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -33.02 -29.21) (xy -33.02 -36.83) (xy -25.4 -33.02) (xy -33.02 -29.21)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -33.02 -29.21) (xy -33.02 -36.83) (xy -25.4 -33.02) (xy -33.02 -29.21)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -33.02 -29.21) (xy -33.02 -36.83) (xy -25.4 -33.02) (xy -33.02 -29.21)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -33.02 -29.21) (xy -33.02 -36.83) (xy -25.4 -33.02) (xy -33.02 -29.21)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -33.02 -29.21) (xy -33.02 -36.83) (xy -25.4 -33.02) (xy -33.02 -29.21)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 -11.43) (xy -21.59 -19.05) (xy -13.97 -15.24) (xy -21.59 -11.43)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 -11.43) (xy -21.59 -19.05) (xy -13.97 -15.24) (xy -21.59 -11.43)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 -11.43) (xy -21.59 -19.05) (xy -13.97 -15.24) (xy -21.59 -11.43)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 -11.43) (xy -21.59 -19.05) (xy -13.97 -15.24) (xy -21.59 -11.43)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 -11.43) (xy -21.59 -19.05) (xy -13.97 -15.24) (xy -21.59 -11.43)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -21.59 -11.43) (xy -21.59 -19.05) (xy -13.97 -15.24) (xy -21.59 -11.43)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -13.97 -25.4) (xy -13.97 -33.02) (xy -6.35 -29.21) (xy -13.97 -25.4)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -13.97 -25.4) (xy -13.97 -33.02) (xy -6.35 -29.21) (xy -13.97 -25.4)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -13.97 -25.4) (xy -13.97 -33.02) (xy -6.35 -29.21) (xy -13.97 -25.4)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -13.97 -25.4) (xy -13.97 -33.02) (xy -6.35 -29.21) (xy -13.97 -25.4)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -13.97 -25.4) (xy -13.97 -33.02) (xy -6.35 -29.21) (xy -13.97 -25.4)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -13.97 -25.4) (xy -13.97 -33.02) (xy -6.35 -29.21) (xy -13.97 -25.4)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -31.75) (xy 0 -39.37) (xy 7.62 -35.56) (xy 0 -31.75)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -31.75) (xy 0 -39.37) (xy 7.62 -35.56) (xy 0 -31.75)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -31.75) (xy 0 -39.37) (xy 7.62 -35.56) (xy 0 -31.75)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -31.75) (xy 0 -39.37) (xy 7.62 -35.56) (xy 0 -31.75)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -31.75) (xy 0 -39.37) (xy 7.62 -35.56) (xy 0 -31.75)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -31.75) (xy 0 -39.37) (xy 7.62 -35.56) (xy 0 -31.75)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -19.05) (xy 5.08 -26.67) (xy 12.7 -22.86) (xy 5.08 -19.05)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -19.05) (xy 5.08 -26.67) (xy 12.7 -22.86) (xy 5.08 -19.05)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -19.05) (xy 5.08 -26.67) (xy 12.7 -22.86) (xy 5.08 -19.05)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -19.05) (xy 5.08 -26.67) (xy 12.7 -22.86) (xy 5.08 -19.05)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -19.05) (xy 5.08 -26.67) (xy 12.7 -22.86) (xy 5.08 -19.05)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -19.05) (xy 5.08 -26.67) (xy 12.7 -22.86) (xy 5.08 -19.05)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

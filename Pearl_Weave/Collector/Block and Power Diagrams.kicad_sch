@@ -1,0 +1,606 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d4c6e702-63c5-49a7-8fb9-ec13ae68f419")
+	(paper "A4")
+	(title_block
+		(title "Block and Power Diagrams")
+		(date "2026-05-26")
+		(rev "A")
+		(company "Maduranga M. A.")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 139.7 25.4)
+		(end 215.9 152.4)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(uuid "3e2a39e6-209c-424b-901b-76a3cdff5e48")
+	)
+	(rectangle
+		(start 25.4 25.4)
+		(end 114.3 152.4)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(uuid "f5c75a82-67ba-4eb3-851d-b45f73ae6da0")
+	)
+	(text "Power Diagram"
+		(exclude_from_sim no)
+		(at 178.054 32.512 0)
+		(effects
+			(font
+				(face "Arial Black")
+				(size 5.08 5.08)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "b0cbd752-2a4e-43d2-b8de-392eab652cf3")
+	)
+	(text "Block Diagram"
+		(exclude_from_sim no)
+		(at 70.358 32.766 0)
+		(effects
+			(font
+				(face "Arial Black")
+				(size 5.08 5.08)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "b51a2292-9f1b-4be7-963a-be1f4499bb28")
+	)
+	(text "Estimated current(Max)\nMCU - 150mA\nCH340 - 20mA\nCD4069 - 0.5mA\nMAX485 - 50mA\nTotal = 220.5mA (Choosed a >300mA LDO)"
+		(exclude_from_sim no)
+		(at 218.948 57.912 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b5d4c58a-69b0-471c-94a4-44d180ba9251")
+	)
+	(text_box "User I/O"
+		(exclude_from_sim no)
+		(at 165.1 137.16 0)
+		(size 38.1 12.8644)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial Black")
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "0504f8df-3515-4343-8b95-4d1ca3c4c55d")
+	)
+	(text_box "RS485"
+		(exclude_from_sim no)
+		(at 165.1 116.84 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial Black")
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "09acc536-8c6d-4a0e-93a4-23842ca49bbc")
+	)
+	(text_box "MCU"
+		(exclude_from_sim no)
+		(at 165.1 76.2 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial Black")
+				(size 3.81 3.81)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "141bcb49-fc68-48ad-9e55-4fad065f192c")
+	)
+	(text_box "MCU"
+		(exclude_from_sim no)
+		(at 50.8 76.2 0)
+		(size 38.1 38.1)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial Black")
+				(size 3.81 3.81)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "30b803a6-b48b-4a56-83cc-f7b34d03a2e8")
+	)
+	(text_box "CH340"
+		(exclude_from_sim no)
+		(at 165.1 96.52 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial Black")
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5bde4f23-e206-4bd0-9570-9edadef20a9e")
+	)
+	(text_box "Power In\n3.3V Out\n\n"
+		(exclude_from_sim no)
+		(at 152.4 43.18 0)
+		(size 50.8 25.3999)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial Black")
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "72fe71ae-c884-44ac-8978-e30b7e72e210")
+	)
+	(text_box "PC Link"
+		(exclude_from_sim no)
+		(at 50.8 50.8 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial Black")
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "dad0086d-06c7-4ec2-8a2e-5ed03bd9824d")
+	)
+	(text_box "RS485"
+		(exclude_from_sim no)
+		(at 50.8 127 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(face "Arial Black")
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "ea3c5417-ac0b-4453-9c6f-0b33b7b490eb")
+	)
+	(polyline
+		(pts
+			(xy 162.56 83.82) (xy 163.83 82.55)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "014a6a22-ea86-4508-ac9b-a4ab8a71bdb2")
+	)
+	(polyline
+		(pts
+			(xy 67.31 123.19) (xy 68.58 124.46)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "096e631c-e0be-4215-a725-317ec7eb3aad")
+	)
+	(polyline
+		(pts
+			(xy 157.48 143.51) (xy 163.83 143.51)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "12de841e-f9fc-45d9-8e10-aac365d15d7c")
+	)
+	(polyline
+		(pts
+			(xy 68.58 116.84) (xy 68.58 124.46)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "19deb3c2-c27f-4d55-9c74-ab55e4c46a99")
+	)
+	(polyline
+		(pts
+			(xy 71.12 116.84) (xy 71.12 124.46)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "2135658e-24d2-47a6-926d-8e8681c01e64")
+	)
+	(polyline
+		(pts
+			(xy 157.48 102.87) (xy 163.83 102.87)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "21d570ca-242c-4e24-b225-f0f5744f2b66")
+	)
+	(polyline
+		(pts
+			(xy 67.31 123.19) (xy 68.58 124.46)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "31b99976-6f73-4fea-857c-7c08962ef84b")
+	)
+	(polyline
+		(pts
+			(xy 157.48 69.85) (xy 157.48 143.51)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "37d8a756-29f3-459d-914d-f5b9b79c6e0b")
+	)
+	(polyline
+		(pts
+			(xy 162.56 124.46) (xy 163.83 123.19)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "39c4aa9b-6ea3-4452-b676-e4ef1237d680")
+	)
+	(polyline
+		(pts
+			(xy 162.56 121.92) (xy 163.83 123.19)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "5adf0749-5b88-4b39-ad64-5fdd77b29700")
+	)
+	(polyline
+		(pts
+			(xy 71.12 72.39) (xy 72.39 73.66)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "6b03e499-ae90-4b72-8112-d9e957a172a5")
+	)
+	(polyline
+		(pts
+			(xy 72.39 66.04) (xy 72.39 73.66)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "724394d3-f4c8-40c1-9d74-1b20b19e5b44")
+	)
+	(polyline
+		(pts
+			(xy 162.56 101.6) (xy 163.83 102.87)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "759e6e79-e89f-4b45-9006-562ce333274c")
+	)
+	(polyline
+		(pts
+			(xy 71.12 116.84) (xy 72.39 118.11)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "8a4ebdde-9847-4909-908c-89ac384a050c")
+	)
+	(polyline
+		(pts
+			(xy 69.85 66.04) (xy 71.12 67.31)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "92139d75-ba27-4e10-b491-c5c45088460d")
+	)
+	(polyline
+		(pts
+			(xy 162.56 124.46) (xy 163.83 123.19)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "9622539b-1564-4d15-b528-1a81af013c00")
+	)
+	(polyline
+		(pts
+			(xy 71.12 116.84) (xy 72.39 118.11)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "96c161b5-52e4-40f1-a9b2-7e4758658293")
+	)
+	(polyline
+		(pts
+			(xy 162.56 142.24) (xy 163.83 143.51)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "9d0d1b75-aab3-4818-90fb-7ebddd020a4c")
+	)
+	(polyline
+		(pts
+			(xy 162.56 81.28) (xy 163.83 82.55)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "9dc4fb77-0ea4-46a0-83a5-3b75e4c345a5")
+	)
+	(polyline
+		(pts
+			(xy 69.85 118.11) (xy 71.12 116.84)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "a0157345-bdbe-4af3-9463-2d07d9b6052e")
+	)
+	(polyline
+		(pts
+			(xy 69.85 66.04) (xy 69.85 73.66)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "aa33dc27-341d-476d-b4f0-a8b3e4de07f2")
+	)
+	(polyline
+		(pts
+			(xy 157.48 123.19) (xy 163.83 123.19)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "ac670cf9-a5ac-440d-8dab-a22261e2ce09")
+	)
+	(polyline
+		(pts
+			(xy 68.58 67.31) (xy 69.85 66.04)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "ac7b9a6b-1ce1-4d93-9624-8df10d7e7810")
+	)
+	(polyline
+		(pts
+			(xy 157.48 82.55) (xy 163.83 82.55)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "af2acfd2-52b4-465c-b460-2da122ca35f0")
+	)
+	(polyline
+		(pts
+			(xy 162.56 142.24) (xy 163.83 143.51)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "ba6d978d-1dc3-442d-8782-98168b115f70")
+	)
+	(polyline
+		(pts
+			(xy 71.12 72.39) (xy 72.39 73.66)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "bc34f732-e005-4327-9185-b9a84587e5a7")
+	)
+	(polyline
+		(pts
+			(xy 162.56 104.14) (xy 163.83 102.87)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "c33750f0-68c3-486d-bf9f-d5289c6179be")
+	)
+	(polyline
+		(pts
+			(xy 68.58 124.46) (xy 69.85 123.19)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e606d3e2-57c7-4c5d-9684-28ddae9346e5")
+	)
+	(polyline
+		(pts
+			(xy 69.85 66.04) (xy 71.12 67.31)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "ea0eb054-a0fe-42a3-a842-3c0220af1cd0")
+	)
+	(polyline
+		(pts
+			(xy 72.39 73.66) (xy 73.66 72.39)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "fbe4e51b-e194-4d2e-9aa4-5c3d08cac0a4")
+	)
+	(polyline
+		(pts
+			(xy 162.56 144.78) (xy 163.83 143.51)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "fc3723ff-c6c5-42cf-9cb9-9c9b6b25d1d2")
+	)
+)
