@@ -529,7 +529,6 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
@@ -544,7 +543,6 @@
         "priority": 2,
         "schematic_color": "rgb(255, 255, 0)",
         "track_width": 0.1872,
-        "tuning_profile": "",
         "wire_width": 6
       },
       {
@@ -557,7 +555,6 @@
         "priority": 3,
         "schematic_color": "rgb(255, 0, 255)",
         "track_width": 0.3155,
-        "tuning_profile": "",
         "wire_width": 6
       },
       {
@@ -569,7 +566,6 @@
         "priority": 0,
         "schematic_color": "rgb(0, 0, 72)",
         "track_width": 0.2,
-        "tuning_profile": "",
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
@@ -583,14 +579,13 @@
         "priority": 1,
         "schematic_color": "rgb(194, 0, 0)",
         "track_width": 0.3,
-        "tuning_profile": "",
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 10
       }
     ],
     "meta": {
-      "version": 5
+      "version": 4
     },
     "net_colors": {
       "+3V3": "rgb(255, 255, 0)",
@@ -629,10 +624,14 @@
   },
   "pcbnew": {
     "last_paths": {
+      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
+      "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
