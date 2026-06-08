@@ -1,0 +1,3 @@
+../Core/Src/rs485_dummy_slave.c:33:6:RS485_Dummy_Slave_Init	1
+../Core/Src/rs485_dummy_slave.c:44:6:RS485_Dummy_Slave_RxCallback	3
+../Core/Src/rs485_dummy_slave.c:62:6:RS485_Dummy_Slave_Process	15

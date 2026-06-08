@@ -1,0 +1,8 @@
+../Core/Src/EEPROM_log.c:11:13:write_magic	1
+../Core/Src/EEPROM_log.c:20:16:check_magic	3
+../Core/Src/EEPROM_log.c:28:16:session_page	1
+../Core/Src/EEPROM_log.c:34:6:EEPROM_LOG_Init	4
+../Core/Src/EEPROM_log.c:72:6:EEPROM_LOG_SaveCounter	1
+../Core/Src/EEPROM_log.c:87:6:EEPROM_LOG_CommitSession	1
+../Core/Src/EEPROM_log.c:94:9:EEPROM_LOG_ReadSession	3
+../Core/Src/EEPROM_log.c:110:9:EEPROM_LOG_GetSessionCount	1

@@ -1,0 +1,2 @@
+../Core/Src/seg7.c:26:13:SEG7_WriteSegments	16	static
+../Core/Src/seg7.c:38:6:SEG7_DisplayNumber	24	static

@@ -1,0 +1,8 @@
+../Core/Src/EEPROM_log.c:11:13:write_magic	16	static
+../Core/Src/EEPROM_log.c:20:16:check_magic	16	static
+../Core/Src/EEPROM_log.c:28:16:session_page	16	static
+../Core/Src/EEPROM_log.c:34:6:EEPROM_LOG_Init	32	static
+../Core/Src/EEPROM_log.c:72:6:EEPROM_LOG_SaveCounter	24	static
+../Core/Src/EEPROM_log.c:87:6:EEPROM_LOG_CommitSession	16	static
+../Core/Src/EEPROM_log.c:94:9:EEPROM_LOG_ReadSession	24	static
+../Core/Src/EEPROM_log.c:110:9:EEPROM_LOG_GetSessionCount	16	static
